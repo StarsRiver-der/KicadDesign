@@ -1,9 +1,0 @@
-(sym_lib_table
-  (lib (name cyusb3014-bzxi)(type Legacy)(uri ${KIPRJMOD}/Lib/cyusb3014-bzxi.lib)(options "")(descr ""))
-  (lib (name Micron)(type Legacy)(uri ${KIPRJMOD}/Lib/Micron.lib)(options "")(descr ""))
-  (lib (name mp14xx)(type Legacy)(uri ${KIPRJMOD}/Lib/mp14xx.lib)(options "")(descr ""))
-  (lib (name NCP)(type Legacy)(uri ${KIPRJMOD}/Lib/NCP.lib)(options "")(descr ""))
-  (lib (name TPS)(type Legacy)(uri ${KIPRJMOD}/Lib/TPS.lib)(options "")(descr ""))
-  (lib (name ptboard-rescue)(type Legacy)(uri ${KIPRJMOD}/ptboard-rescue.lib)(options "")(descr ""))
-  (lib (name DCDC_Buck-rescue)(type Legacy)(uri ${KIPRJMOD}/DCDC_Buck-rescue.lib)(options "")(descr ""))
-)

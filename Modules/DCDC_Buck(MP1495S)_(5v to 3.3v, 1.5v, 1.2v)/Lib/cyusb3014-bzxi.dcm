@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP CYUSB3014-BZXI
-D 512K SDRAM, 60 I/O, 8/16-bit GPIF, DMA, GPIO, I2C, UART, I2S, SPI, FBGA
-K EZ-USB® FX3 SuperSpeed USB Controller
-F https://www.cypress.com/file/140296/download
-$ENDCMP
-#
-#End Doc Library

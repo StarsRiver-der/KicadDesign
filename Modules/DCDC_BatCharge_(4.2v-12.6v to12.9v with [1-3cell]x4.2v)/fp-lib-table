@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name AMPF)(type KiCad)(uri ${KIPRJMOD}/Lib/AMPF.pretty)(options "")(descr ""))
-)
