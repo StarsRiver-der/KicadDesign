@@ -1,0 +1,46 @@
+### Module positions - created on 2020/4/20 22:46:32 ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val               Package                                             PosX       PosY       Rot  Side
+C7        0.1uF             C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.9803     0.6063  270.0000  top
+C9        22uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       0.6437     0.5217  270.0000  top
+C10       0.1uF             C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.6404     0.7272    0.0000  top
+C13       22uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       0.8984     0.2862    0.0000  top
+C14       22uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       0.7498     0.2862  180.0000  top
+C17       0.1uF             C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.6404     0.6819    0.0000  top
+C19       15pF              C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.6404     0.8171  180.0000  top
+C21       1nF               C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.7593     0.7270  180.0000  top
+C23       0.1uF             C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.8169     0.6043  270.0000  top
+C25       22uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       1.4843     0.5297  270.0000  top
+C26       0.1uF             C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.4787     0.7220    0.0000  top
+C29       22uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       1.7283     0.2862    0.0000  top
+C30       22uF              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder       1.5797     0.2862  180.0000  top
+C33       0.1uF             C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.4787     0.6766    0.0000  top
+C35       15pF              C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.4585     0.8132  180.0000  top
+C37       1nF               C_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.5970     0.6770  180.0000  top
+J1        USB_C_Receptacle  USB_C_24pin_FtBp                                  1.6417     1.4055  180.0000  top
+L-2V1     RED               LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder     0.1496     0.3740    0.0000  top
+L-3V1     RED               LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder     0.1496     0.4606    0.0000  top
+L3        4.7uH             L_Taiyo-Yuden_NR-60xx                             0.8246     0.4685  270.0000  top
+L5        2.2uH             L_Taiyo-Yuden_NR-60xx                             1.6545     0.4685  270.0000  top
+R1        1M                R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.3386     1.3327  180.0000  top
+R2        1M                R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.3386     1.4193  180.0000  top
+R3        100K_(1%)         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.9028     0.8441    0.0000  top
+R5        10(1%)            R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.9803     0.7382  270.0000  top
+R7        1K(1%)            R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.2795     0.4606    0.0000  top
+R8        470(1%)           R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.2795     0.3740    0.0000  top
+R9        100K_(1%)         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.7593     0.7722    0.0000  top
+R11       11.3K(1%)         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.7593     0.6819  180.0000  top
+R13       33K(1%)           R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.7591     0.8177  180.0000  top
+R14       40.2K_(1%)        R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.6404     0.8634  180.0000  top
+R17       13K_(1%)          R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       0.7587     0.8630    0.0000  top
+R19       100K_(1%)         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.7358     0.8478    0.0000  top
+R21       10(1%)            R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.8169     0.7382  270.0000  top
+R23       100K_(1%)         R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.5970     0.7675    0.0000  top
+R25       9.31K_(1%)        R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.5970     0.7222  180.0000  top
+R27       56K_(1%)          R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.5970     0.8136  180.0000  top
+R28       30.1K_(1%)        R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.4585     0.8585  180.0000  top
+R32       20K_(1%)          R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.5970     0.8589  180.0000  top
+R33       15K_(1%)          R_0603_1608Metric_Pad1.05x0.95mm_HandSolder       1.5276     0.9041  180.0000  top
+## End
