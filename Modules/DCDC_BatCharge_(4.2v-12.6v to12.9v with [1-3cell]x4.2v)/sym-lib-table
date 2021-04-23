@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AMPF)(type Legacy)(uri ${KIPRJMOD}/Lib/AMPF.lib)(options "")(descr ""))
+)
