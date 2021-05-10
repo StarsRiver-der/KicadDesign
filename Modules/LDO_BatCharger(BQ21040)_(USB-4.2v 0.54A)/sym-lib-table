@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BQ2970)(type Legacy)(uri ${KIPRJMOD}/Lib/BQ2970.lib)(options "")(descr ""))
+  (lib (name CSD16406Q3)(type Legacy)(uri ${KIPRJMOD}/Lib/CSD16406Q3.lib)(options "")(descr ""))
+  (lib (name BQ21040)(type Legacy)(uri ${KIPRJMOD}/Lib/BQ21040.lib)(options "")(descr ""))
+)

@@ -1,25 +1,4 @@
-18931314421268921
-AMPF
-BQ24170RGYT
-
-
-0
-25
-25
-AMPF
-TPS61288
-
-
-0
-15
-11
-BQ24170RGYT
-BQ24170RGYT
-
-
-0
-25
-25
+18924840756944469
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2295,6 +2274,13 @@ speaker CUI
 0
 2
 2
+CSD16406Q3
+CSD16406Q3
+
+
+0
+8
+8
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -77398,20 +77384,6 @@ Logo WEEE
 0
 0
 0
-TPS61288
-BQ24170RGYT
-
-
-0
-25
-25
-TPS61288
-TPS61288
-
-
-0
-15
-11
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

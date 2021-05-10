@@ -1,0 +1,588 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BQ25170:BQ25170 U1
+U 1 1 6087BA77
+P 3400 3550
+F 0 "U1" H 3400 4015 50  0000 C CNN
+F 1 "BQ25170" H 3400 3924 50  0000 C CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias" H 3400 4000 50  0001 C CNN
+F 3 "" H 3400 4000 50  0001 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 6087C1AC
+P 2200 3500
+F 0 "C1" H 2315 3546 50  0000 L CNN
+F 1 "1uF" H 2315 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2238 3350 50  0001 C CNN
+F 3 "~" H 2200 3500 50  0001 C CNN
+	1    2200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Rv1
+U 1 1 6087C9CF
+P 2500 3650
+F 0 "Rv1" H 2570 3696 50  0000 L CNN
+F 1 "27K" H 2570 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2430 3650 50  0001 C CNN
+F 3 "~" H 2500 3650 50  0001 C CNN
+	1    2500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R Ri1
+U 1 1 6087CB85
+P 2750 3850
+F 0 "Ri1" H 2820 3896 50  0000 L CNN
+F 1 "600R" H 2820 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2680 3850 50  0001 C CNN
+F 3 "~" H 2750 3850 50  0001 C CNN
+	1    2750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3350 3050 3350
+Wire Wire Line
+	2500 3500 3050 3500
+Wire Wire Line
+	2750 3700 2750 3650
+Wire Wire Line
+	2750 3650 3050 3650
+$Comp
+L power:GND #PWR01
+U 1 1 6087E327
+P 2500 4100
+F 0 "#PWR01" H 2500 3850 50  0001 C CNN
+F 1 "GND" H 2505 3927 50  0000 C CNN
+F 2 "" H 2500 4100 50  0001 C CNN
+F 3 "" H 2500 4100 50  0001 C CNN
+	1    2500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3650 2200 4100
+Wire Wire Line
+	2200 4100 2500 4100
+Wire Wire Line
+	3050 4100 3050 3800
+Connection ~ 2500 4100
+Wire Wire Line
+	2500 4100 2750 4100
+Wire Wire Line
+	2750 4000 2750 4100
+Connection ~ 2750 4100
+Wire Wire Line
+	2750 4100 3050 4100
+Wire Wire Line
+	2500 3800 2500 4100
+$Comp
+L Device:C C2
+U 1 1 6087F38E
+P 3900 3200
+F 0 "C2" H 4015 3246 50  0000 L CNN
+F 1 "1uF" H 4015 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3938 3050 50  0001 C CNN
+F 3 "~" H 3900 3200 50  0001 C CNN
+	1    3900 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3350 3900 3350
+$Comp
+L power:GND #PWR02
+U 1 1 6087FBB0
+P 3900 3050
+F 0 "#PWR02" H 3900 2800 50  0001 C CNN
+F 1 "GND" H 3905 2877 50  0000 C CNN
+F 2 "" H 3900 3050 50  0001 C CNN
+F 3 "" H 3900 3050 50  0001 C CNN
+	1    3900 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R RStat1
+U 1 1 608803DB
+P 3900 3500
+F 0 "RStat1" V 3950 3150 50  0000 L CNN
+F 1 "10K" V 3900 3400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3830 3500 50  0001 C CNN
+F 3 "~" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R RPg1
+U 1 1 6088077E
+P 3900 3650
+F 0 "RPg1" V 3950 3350 50  0000 L CNN
+F 1 "10K" V 3900 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3830 3650 50  0001 C CNN
+F 3 "~" H 3900 3650 50  0001 C CNN
+	1    3900 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 3350 4250 3350
+Connection ~ 3900 3350
+$Comp
+L power:GND #PWR03
+U 1 1 60883BB4
+P 3950 4600
+F 0 "#PWR03" H 3950 4350 50  0001 C CNN
+F 1 "GND" H 3955 4427 50  0000 C CNN
+F 2 "" H 3950 4600 50  0001 C CNN
+F 3 "" H 3950 4600 50  0001 C CNN
+	1    3950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4550 3950 4550
+Connection ~ 3950 4550
+Wire Wire Line
+	3950 4550 3950 4600
+Wire Wire Line
+	3950 4450 3950 4550
+$Comp
+L Device:R Rs1
+U 1 1 60883111
+P 3950 4000
+F 0 "Rs1" H 3750 4000 50  0000 L CNN
+F 1 "1.9k" V 3950 3900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3880 4000 50  0001 C CNN
+F 3 "~" H 3950 4000 50  0001 C CNN
+	1    3950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R NTC1
+U 1 1 60881AA1
+P 3950 4300
+F 0 "NTC1" V 3950 4200 50  0000 L CNN
+F 1 " 103AT-2" V 4050 4150 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 3880 4300 50  0001 C CNN
+F 3 "~" H 3950 4300 50  0001 C CNN
+	1    3950 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 3800 3950 3800
+Wire Wire Line
+	3950 3850 3950 3800
+Connection ~ 3950 3800
+Wire Wire Line
+	3950 3800 4300 3800
+$Comp
+L Device:R Rp1
+U 1 1 60886AC0
+P 4300 4150
+F 0 "Rp1" H 4100 4150 50  0000 L CNN
+F 1 "400k" V 4300 4050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4230 4150 50  0001 C CNN
+F 3 "~" H 4300 4150 50  0001 C CNN
+	1    4300 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 3800 4300 4000
+Wire Wire Line
+	4300 4300 4300 4550
+Text GLabel 4450 3350 2    50   Input ~ 0
+BAT
+Text GLabel 1900 3350 0    50   Input ~ 0
+IN
+Wire Wire Line
+	1900 3350 2100 3350
+Connection ~ 2200 3350
+Wire Wire Line
+	3400 4000 3400 4100
+Wire Wire Line
+	3400 4100 3050 4100
+Connection ~ 3050 4100
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 6089823D
+P 4350 3150
+F 0 "J1" V 4314 3062 50  0000 R CNN
+F 1 "Conn_01x01" H 4900 3150 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4350 3150 50  0001 C CNN
+F 3 "~" H 4350 3150 50  0001 C CNN
+	1    4350 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4350 3350
+Wire Wire Line
+	4350 3350 4450 3350
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 6089A24F
+P 5750 3450
+F 0 "J3" V 5714 3362 50  0000 R CNN
+F 1 "Conn_01x01" H 6300 3450 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 5750 3450 50  0001 C CNN
+F 3 "~" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5800 3650 2    50   Input ~ 0
+PG
+Wire Wire Line
+	4050 3650 5750 3650
+Connection ~ 5750 3650
+Wire Wire Line
+	5750 3650 5800 3650
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 60899C04
+P 5000 3300
+F 0 "J2" V 4964 3212 50  0000 R CNN
+F 1 "Conn_01x01" H 5550 3300 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 5000 3300 50  0001 C CNN
+F 3 "~" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5050 3500 2    50   Input ~ 0
+STAT
+Wire Wire Line
+	4050 3500 5000 3500
+Connection ~ 5000 3500
+Wire Wire Line
+	5000 3500 5050 3500
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 6089DA15
+P 2400 4900
+F 0 "J5" V 2364 4812 50  0000 R CNN
+F 1 "Conn_01x01" H 2950 4900 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2400 4900 50  0001 C CNN
+F 3 "~" H 2400 4900 50  0001 C CNN
+	1    2400 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 6089DF0C
+P 2400 5050
+F 0 "J6" V 2364 4962 50  0000 R CNN
+F 1 "Conn_01x01" H 2950 5050 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2400 5050 50  0001 C CNN
+F 3 "~" H 2400 5050 50  0001 C CNN
+	1    2400 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 6089E377
+P 2400 5200
+F 0 "J7" V 2364 5112 50  0000 R CNN
+F 1 "Conn_01x01" H 2950 5200 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2400 5200 50  0001 C CNN
+F 3 "~" H 2400 5200 50  0001 C CNN
+	1    2400 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 6089F2BC
+P 2700 5250
+F 0 "#PWR04" H 2700 5000 50  0001 C CNN
+F 1 "GND" H 2705 5077 50  0000 C CNN
+F 2 "" H 2700 5250 50  0001 C CNN
+F 3 "" H 2700 5250 50  0001 C CNN
+	1    2700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4750 2600 4900
+Connection ~ 2600 4900
+Wire Wire Line
+	2600 4900 2600 5050
+Connection ~ 2600 5050
+Wire Wire Line
+	2600 5050 2600 5200
+Wire Wire Line
+	2700 5250 2700 5200
+Wire Wire Line
+	2700 5200 2600 5200
+Connection ~ 2600 5200
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 608A61E7
+P 2100 3150
+F 0 "J8" V 2064 3062 50  0000 R CNN
+F 1 "Conn_01x01" V 1973 3062 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2100 3150 50  0001 C CNN
+F 3 "~" H 2100 3150 50  0001 C CNN
+	1    2100 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2100 3350
+Wire Wire Line
+	2100 3350 2200 3350
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 608C64A7
+P 4250 3150
+F 0 "J9" V 4214 3062 50  0000 R CNN
+F 1 "Conn_01x01" H 4800 3150 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 4250 3150 50  0001 C CNN
+F 3 "~" H 4250 3150 50  0001 C CNN
+	1    4250 3150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4250 3350
+Wire Wire Line
+	4250 3350 4350 3350
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 6089D1FC
+P 2400 4750
+F 0 "J4" V 2364 4662 50  0000 R CNN
+F 1 "Conn_01x01" H 2950 4750 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 2400 4750 50  0001 C CNN
+F 3 "~" H 2400 4750 50  0001 C CNN
+	1    2400 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6900 4400 6900 4600
+$Comp
+L Device:R R4
+U 1 1 609790B1
+P 6900 4250
+F 0 "R4" H 6970 4296 50  0000 L CNN
+F 1 "2.2k" H 6970 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6830 4250 50  0001 C CNN
+F 3 "~" H 6900 4250 50  0001 C CNN
+	1    6900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3500 9950 3050
+Wire Wire Line
+	9850 3500 9950 3500
+Wire Wire Line
+	7250 4600 6900 4600
+Wire Wire Line
+	8950 4400 8950 4600
+Wire Wire Line
+	8950 3900 9050 3900
+Connection ~ 8950 3900
+Wire Wire Line
+	8950 4100 8950 3900
+$Comp
+L Device:R R6
+U 1 1 60972CEE
+P 8950 4250
+F 0 "R6" H 9020 4296 50  0000 L CNN
+F 1 "5.1M" H 9020 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8880 4250 50  0001 C CNN
+F 3 "~" H 8950 4250 50  0001 C CNN
+	1    8950 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 3700
+Wire Wire Line
+	7250 3700 7550 3700
+Wire Wire Line
+	7250 4100 7250 3700
+Wire Wire Line
+	7550 3700 7550 4300
+Wire Wire Line
+	9050 3700 7550 3700
+Wire Wire Line
+	9950 3900 9950 4600
+Wire Wire Line
+	8950 4600 9950 4600
+Wire Wire Line
+	8650 3900 8650 4300
+Wire Wire Line
+	8650 3900 8950 3900
+Connection ~ 7250 4600
+Wire Wire Line
+	7250 4400 7250 4600
+$Comp
+L Device:R R5
+U 1 1 60955E65
+P 7250 4250
+F 0 "R5" H 7320 4296 50  0000 L CNN
+F 1 "5.1M" H 7320 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 4250 50  0001 C CNN
+F 3 "~" H 7250 4250 50  0001 C CNN
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8950 4600
+Wire Wire Line
+	9950 3900 9850 3900
+Wire Wire Line
+	8950 4700 8950 4600
+Connection ~ 8950 4700
+Wire Wire Line
+	8950 4800 8950 4700
+Connection ~ 8150 4850
+Wire Wire Line
+	8050 4850 8150 4850
+Wire Wire Line
+	8050 4750 8150 4750
+Wire Wire Line
+	8050 4650 8150 4650
+Connection ~ 8150 4550
+Wire Wire Line
+	8050 4550 8150 4550
+Wire Wire Line
+	8150 4750 8150 4850
+Connection ~ 8150 4750
+Wire Wire Line
+	8150 4650 8150 4750
+Connection ~ 8150 4650
+Wire Wire Line
+	8150 4550 8150 4650
+Wire Wire Line
+	8050 4750 8050 4850
+Connection ~ 8050 4750
+Wire Wire Line
+	8050 4650 8050 4750
+Connection ~ 8050 4650
+Wire Wire Line
+	8050 4550 8050 4650
+$Comp
+L CSD16406Q3:CSD16406Q3 U4
+U 1 1 60929C60
+P 8550 4700
+F 0 "U4" V 8900 4900 50  0000 R CNN
+F 1 "CSD16406Q3" V 9000 5100 50  0000 R CNN
+F 2 "CSD16406Q3:CSD16406Q3" H 8550 4700 50  0001 L BNN
+F 3 "" H 8550 4700 50  0001 L BNN
+F 4 "Good" H 8550 4700 50  0001 L BNN "AVAILABILITY"
+F 5 "https://snapeda.com/shop?store=Mouser&id=288071" H 8550 4700 50  0001 L BNN "MOUSER-PURCHASE-URL"
+F 6 "Texas Instruments" H 8550 4700 50  0001 L BNN "MF"
+F 7 "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm 8-VSON-CLIP -55 to 150" H 8550 4700 50  0001 L BNN "DESCRIPTION"
+F 8 "https://snapeda.com/shop?store=Texas+Instruments&id=288071" H 8550 4700 50  0001 L BNN "TEXAS_INSTRUMENTS-PURCHASE-URL"
+F 9 "None" H 8550 4700 50  0001 L BNN "PRICE"
+F 10 "VSON-CLIP-8 Texas Instruments" H 8550 4700 50  0001 L BNN "PACKAGE"
+F 11 "CSD16406Q3" H 8550 4700 50  0001 L BNN "MP"
+F 12 "https://snapeda.com/shop?store=DigiKey&id=288071" H 8550 4700 50  0001 L BNN "DIGIKEY-PURCHASE-URL"
+	1    8550 4700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6099756D
+P 10250 4000
+F 0 "C3" H 10365 4046 50  0000 L CNN
+F 1 "0.1uF" H 10365 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10288 3850 50  0001 C CNN
+F 3 "~" H 10250 4000 50  0001 C CNN
+	1    10250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60997573
+P 10250 3450
+F 0 "R7" H 10320 3496 50  0000 L CNN
+F 1 "330R" H 10320 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10180 3450 50  0001 C CNN
+F 3 "~" H 10250 3450 50  0001 C CNN
+	1    10250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 3700 10250 3700
+Wire Wire Line
+	10250 3700 10250 3600
+Wire Wire Line
+	10250 3700 10250 3850
+Connection ~ 10250 3700
+Wire Wire Line
+	10250 4600 9950 4600
+Connection ~ 9950 4600
+Text GLabel 10600 3050 2    50   Input ~ 0
+BAT+
+Wire Wire Line
+	10250 4150 10250 4600
+Text GLabel 10600 4600 2    50   Input ~ 0
+BAT-
+Wire Wire Line
+	10600 4600 10250 4600
+Wire Wire Line
+	6900 3050 6900 4100
+Wire Wire Line
+	9950 3050 6900 3050
+Connection ~ 10250 4600
+NoConn ~ 9050 3500
+Connection ~ 6900 4600
+Wire Wire Line
+	10600 3050 10400 3050
+Wire Wire Line
+	10250 3050 10250 3300
+Wire Wire Line
+	10400 3050 10400 2750
+Wire Wire Line
+	10400 2750 6100 2750
+Connection ~ 10400 3050
+Wire Wire Line
+	10400 3050 10250 3050
+Wire Wire Line
+	6900 4600 6100 4600
+Text GLabel 6100 2750 0    50   Input ~ 0
+VCC
+Text GLabel 6100 4600 0    50   Input ~ 0
+VDD
+$Comp
+L BQ2970:BQ2970 U1
+U 1 1 6099657D
+P 9450 3700
+F 0 "U1" H 9450 4215 50  0000 C CNN
+F 1 "BQ2970" H 9450 4124 50  0000 C CNN
+F 2 "Package_SON:WSON-6_1.5x1.5mm_P0.5mm" H 9450 4100 50  0001 C CNN
+F 3 "" H 9450 4100 50  0001 C CNN
+	1    9450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CSD16406Q3:CSD16406Q3 U3
+U 1 1 60927B72
+P 7650 4700
+F 0 "U3" V 8000 4850 50  0000 L CNN
+F 1 "CSD16406Q3" V 8100 4650 50  0000 L CNN
+F 2 "CSD16406Q3:CSD16406Q3" H 7650 4700 50  0001 L BNN
+F 3 "" H 7650 4700 50  0001 L BNN
+F 4 "Good" H 7650 4700 50  0001 L BNN "AVAILABILITY"
+F 5 "https://snapeda.com/shop?store=Mouser&id=288071" H 7650 4700 50  0001 L BNN "MOUSER-PURCHASE-URL"
+F 6 "Texas Instruments" H 7650 4700 50  0001 L BNN "MF"
+F 7 "25V, N ch NexFET MOSFET, single SON3x3, 7.4mOhm 8-VSON-CLIP -55 to 150" H 7650 4700 50  0001 L BNN "DESCRIPTION"
+F 8 "https://snapeda.com/shop?store=Texas+Instruments&id=288071" H 7650 4700 50  0001 L BNN "TEXAS_INSTRUMENTS-PURCHASE-URL"
+F 9 "None" H 7650 4700 50  0001 L BNN "PRICE"
+F 10 "VSON-CLIP-8 Texas Instruments" H 7650 4700 50  0001 L BNN "PACKAGE"
+F 11 "CSD16406Q3" H 7650 4700 50  0001 L BNN "MP"
+F 12 "https://snapeda.com/shop?store=DigiKey&id=288071" H 7650 4700 50  0001 L BNN "DIGIKEY-PURCHASE-URL"
+	1    7650 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4700 7250 4800
+Connection ~ 8050 4550
+Connection ~ 8050 4850
+Wire Wire Line
+	7250 4600 7250 4700
+Connection ~ 7250 4700
+$EndSCHEMATC

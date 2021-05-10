@@ -1949,7 +1949,7 @@ F 3 "~" H 1300 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DCDC_Buck(MP1495S)-rescue:USB_C_Receptacle-Connector J1
+L Connector:USB_C_Receptacle J1
 U 1 1 5E9BE684
 P 1550 2200
 F 0 "J1" H 1200 3250 50  0000 C CNN

@@ -6,4 +6,5 @@
   (lib (name TPS)(type Legacy)(uri ${KIPRJMOD}/Lib/TPS.lib)(options "")(descr ""))
   (lib (name ptboard-rescue)(type Legacy)(uri ${KIPRJMOD}/ptboard-rescue.lib)(options "")(descr ""))
   (lib (name DCDC_Buck-rescue)(type Legacy)(uri ${KIPRJMOD}/DCDC_Buck-rescue.lib)(options "")(descr ""))
+  (lib (name "DCDC_Buck(MP1495S)-rescue")(type Legacy)(uri "${KIPRJMOD}/DCDC_Buck(MP1495S)-rescue.lib")(options "")(descr ""))
 )

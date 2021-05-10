@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name AMPF)(type KiCad)(uri ${KIPRJMOD}/Lib/AMPF.pretty)(options "")(descr ""))
+  (lib (name BQ24170RGYT)(type KiCad)(uri ${KIPRJMOD}/Lib/BQ24170RGYT.pretty)(options "")(descr ""))
+  (lib (name TPS61288)(type KiCad)(uri ${KIPRJMOD}/Lib/TPS61288.pretty)(options "")(descr ""))
 )
