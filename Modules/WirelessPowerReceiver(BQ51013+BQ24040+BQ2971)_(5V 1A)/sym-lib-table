@@ -2,5 +2,4 @@
   (lib (name BC)(type Legacy)(uri ${KIPRJMOD}/Lib/BC.lib)(options "")(descr ""))
   (lib (name BQ51013BRHLR)(type Legacy)(uri ${KIPRJMOD}/Lib/BQ51013B/BQ51013BRHLR.lib)(options "")(descr ""))
   (lib (name BQ24040DSQT)(type Legacy)(uri ${KIPRJMOD}/Lib/BQ24040/BQ24040DSQT.lib)(options "")(descr ""))
-  (lib (name WirelessPower-rescue)(type Legacy)(uri ${KIPRJMOD}/WirelessPower-rescue.lib)(options "")(descr ""))
 )

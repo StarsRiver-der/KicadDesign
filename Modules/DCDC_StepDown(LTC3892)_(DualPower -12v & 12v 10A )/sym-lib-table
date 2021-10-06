@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name LTC3892EUHPBF)(type Legacy)(uri ${KIPRJMOD}/lib/LTC3892EUHPBF.lib)(options "")(descr ""))
-  (lib (name LT1797)(type Legacy)(uri ${KIPRJMOD}/lib/LT1797.lib)(options "")(descr ""))
-  (lib (name SBR8U60P5-13)(type Legacy)(uri ${KIPRJMOD}/lib/SBR8U60P5-13.lib)(options "")(descr ""))
-)
