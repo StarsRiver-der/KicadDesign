@@ -1,0 +1,58 @@
+
+**** 10/06/21 21:34:34 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "INA849_Test_Circuit-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\ina849\ina849_test_circuit-pspicefiles\ina849_te
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TRANS.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ina849.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN/OP  0 32u 0 0n 
+.OPTIONS EXPAND
+.OPTIONS LIBRARY
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\INA849_Test_Circuit.net" 
+
+
+
+**** INCLUDING INA849_Test_Circuit.net ****
+* source INA849_TEST_CIRCUIT
+V_Vref         REF 0 0Vdc
+C_C_Vee         VEE 0  100n  TC=0,0 
+E_E10         N1642181 IN- IN_NODE 0 500m
+R_RLOAD         0 OUT  10k TC=0,0 
+E_E9         IN+ N1642181 IN_NODE N1642181 500m
+R_RG         N1641977 N1641887  6.04 TC=0,0 
+C_CLOAD         0 OUT  0p  TC=0,0 
+-----------------------$
+ERROR(ORPSIM-16144): Value may not be 0
+V_V1         IN_NODE 0  
++PULSE 0.5m -0.5m 1u 1n 1n 4.999u 10u
+V_Vee         0 VEE 12Vdc
+X_U1         IN+ IN- VCC VEE OUT REF N1641887 N1641977 INA849
+C_C_Vcc         0 VCC  100n  TC=0,0 
+V_Vcc         VCC 0 12Vdc
+V_Vref1         N1642181 0 1mVdc
+
+**** RESUMING TRANS.cir ****
+.END
+

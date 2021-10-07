@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\opa828\opax828_test_circuit-pspicefiles\schematic\trans.sim ] 
+
+** Creating circuit file "TRANS.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../opax828.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN/OP  0 2m 0 20u SKIPBP 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.INC "..\SCHEMATIC.net" 
+
+
+.END

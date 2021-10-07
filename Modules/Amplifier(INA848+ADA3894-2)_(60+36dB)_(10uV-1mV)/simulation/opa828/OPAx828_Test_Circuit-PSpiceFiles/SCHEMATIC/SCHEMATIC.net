@@ -1,0 +1,12 @@
+* source OPAX828_TEST_CIRCUIT
+C_CL         0 OUT  30p  TC=0,0 
+V_VEE         0 N27303 12Vdc
+V_VCC         N27354 0 12Vdc
+V_Vin         VIN 0  AC 1
++SIN 0 100m 1k 0 0 0
+R_R1         VIN VOS  2k TC=0,0 
+R_R2         VOS OUT  2k TC=0,0 
+C_C1         N27303 0  100n  TC=0,0 
+C_C2         0 N27354  100n  TC=0,0 
+R_RL         0 OUT  2k TC=0,0 
+X_U1         0 VOS N27354 N27303 OUT OPAX828

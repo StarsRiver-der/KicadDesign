@@ -1,0 +1,15 @@
+* source INA849_TEST_CIRCUIT
+V_Vref         REF 0 0Vdc
+C_C_Vee         VEE 0  100n  TC=0,0 
+E_E10         N1642181 IN- IN_NODE 0 500m
+R_RLOAD         0 OUT  1k TC=0,0 
+E_E9         IN+ N1642181 IN_NODE N1642181 500m
+R_RG         N1641977 N1641887  6.04 TC=0,0 
+C_CLOAD         0 OUT  330p  TC=0,0 
+V_V1         IN_NODE 0  
++PULSE 50u -50u 1u 1n 1n 4.999u 10u
+V_Vee         0 VEE 12Vdc
+X_U1         IN+ IN- VCC VEE OUT REF N1641887 N1641977 INA849
+C_C_Vcc         0 VCC  100n  TC=0,0 
+V_Vcc         VCC 0 12Vdc
+V_Vref1         N1642181 0 35uVdc

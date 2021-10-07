@@ -1,0 +1,24 @@
+** Profile: "INA849_Test_Circuit-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\ina849\ina849_test_circuit-pspicefiles\ina849_test_circuit\trans.sim ] 
+
+** Creating circuit file "TRANS.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ina849.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN/OP  0 32u 0 0n 
+.OPTIONS EXPAND
+.OPTIONS LIBRARY
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\INA849_Test_Circuit.net" 
+
+
+.END

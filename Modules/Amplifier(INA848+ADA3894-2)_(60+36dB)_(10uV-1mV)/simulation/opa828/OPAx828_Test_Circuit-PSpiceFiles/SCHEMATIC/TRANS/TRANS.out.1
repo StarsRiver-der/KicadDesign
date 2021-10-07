@@ -1,0 +1,194 @@
+
+**** 10/06/21 22:58:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\opa828\opax828_test_circuit-pspicefiles\schematic\trans.si
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TRANS.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../opax828.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN/OP  0 2m 0 20u SKIPBP 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.INC "..\SCHEMATIC.net" 
+
+
+
+**** INCLUDING SCHEMATIC.net ****
+* source OPAX828_TEST_CIRCUIT
+C_CL         0 OUT  30p  TC=0,0 
+V_VEE         0 N27303 12Vdc
+V_VCC         N27354 0 12Vdc
+V_Vin         VIN 0  AC 1
++SIN 0 100m 1k 0 0 0
+R_R1         VIN VOS  2k TC=0,0 
+R_R2         VOS OUT  2k TC=0,0 
+C_C1         N27303 0  100n  TC=0,0 
+C_C2         0 N27354  100n  TC=0,0 
+R_RL         0 OUT  2k TC=0,0 
+X_U1         0 VOS N27354 N27303 OUT OPAX828
+
+**** RESUMING TRANS.cir ****
+.END
+
+**** 10/06/21 22:58:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\opa828\opax828_test_circuit-pspicefiles\schematic\trans.si
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVN   
+          IS  100.000000E-18 
+          KF    3.162278E-12 
+
+
+**** 10/06/21 22:58:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\opa828\opax828_test_circuit-pspicefiles\schematic\trans.si
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               R_NOISELESS     
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 10/06/21 22:58:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\opa828\opax828_test_circuit-pspicefiles\schematic\trans.si
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S1._S1   X_U1.X_S2._S2   
+         RON     .01             .01         
+        ROFF    1.000000E+12    1.000000E+12 
+         VON     .01             .01         
+        VOFF    0               0            
+
+
+               X_U1.X_U21.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .7          
+        VOFF     .1          
+
+
+               X_U1.X_U25.OL_SW 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .9          
+        VOFF     .8          
+
+
+               X_U1.X_U5.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .7          
+        VOFF     .1          
+
+
+ERROR(ORPSIM-16592): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. No traces added for data collection. Add at least one trace and simulate again.
+
+
+ABORTING SIMULATION
+**** 10/06/21 22:58:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC-TRANS"  [ H:\OneDrive\Project\Amplifier\simulation\opa828\opax828_test_circuit-pspicefiles\schematic\trans.si
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           6
+  External (NCNODS)                 =         108
+  Total (NUMNOD)                    =         108
+
+Total device count (NUMEL)          =         241
+  Capacitors (C)                    =          41
+  Diodes (D)                        =           2
+  VCVS (E)                          =           9
+  VCCS (G)                          =          47
+  CCVS (H)                          =           3
+  Current Sources (I)               =           5
+  Resistors (R)                     =         111
+  VSwitches (S)                     =           9
+  Voltage Sources (V)               =          14
+
+Number of subcircuits (X)           =          28
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         134
+  Initial no. elements (NTTAR)      =         541
+  No. elements w/ fillin (NTTBR)    =         541
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      96.987
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.34
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .08
+  License check-out time            =       10.12
+  Total job time (using Solver 1)   =        1.36
+

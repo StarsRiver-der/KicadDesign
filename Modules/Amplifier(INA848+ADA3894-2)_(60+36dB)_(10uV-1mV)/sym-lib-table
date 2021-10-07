@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name TPS7A3001DGNT)(type Legacy)(uri ${KIPRJMOD}/lib/TPS7A3001DGNT.lib)(options "")(descr ""))
+  (lib (name TPS7A4901DGNR)(type Legacy)(uri ${KIPRJMOD}/lib/TPS7A4901DGNR.lib)(options "")(descr ""))
+  (lib (name INA)(type Legacy)(uri ${KIPRJMOD}/lib/INA.lib)(options "")(descr ""))
+  (lib (name OPA)(type Legacy)(uri ${KIPRJMOD}/lib/OPA.lib)(options "")(descr ""))
+  (lib (name ADA)(type Legacy)(uri ${KIPRJMOD}/lib/ADA.lib)(options "")(descr ""))
+)

@@ -1,0 +1,25 @@
+.ALIASES
+V_Vref          Vref(+=REF -=0 ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1642097@SOURCE.VDC.Normal(chips)
+C_C_Vee          C_Vee(1=VEE 2=0 ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1641931@ANALOG.C.Normal(chips)
+E_E10           E10(3=N1642181 4=IN- 1=IN_NODE 2=0 ) CN
++@INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1642281@ANALOG.E.Normal(chips)
+R_RLOAD          RLOAD(1=0 2=OUT ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1641985@ANALOG.R.Normal(chips)
+E_E9            E9(3=IN+ 4=N1642181 1=IN_NODE 2=N1642181 ) CN
++@INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1642125@ANALOG.E.Normal(chips)
+R_RG            RG(1=N1641977 2=N1641887 ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1641891@ANALOG.R.Normal(chips)
+C_CLOAD          CLOAD(1=0 2=OUT ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1642007@ANALOG.C.Normal(chips)
+V_V1            V1(+=IN_NODE -=0 ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1642215@SOURCE.VPULSE.Normal(chips)
+V_Vee           Vee(+=0 -=VEE ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1641947@SOURCE.VDC.Normal(chips)
+X_U1            U1(IN+=IN+ IN-=IN- VCC=VCC VEE=VEE OUT=OUT REF=REF RG+=N1641887 RG-=N1641977 ) CN
++@INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1642472@INA849.INA849.Normal(chips)
+C_C_Vcc          C_Vcc(1=0 2=VCC ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1643002@ANALOG.C.Normal(chips)
+V_Vcc           Vcc(+=VCC -=0 ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1642982@SOURCE.VDC.Normal(chips)
+V_Vref1          Vref1(+=N1642181 -=0 ) CN @INA849_TEST_CIRCUIT.INA849_Test_Circuit(sch_1):INS1644043@SOURCE.VDC.Normal(chips)
+_    _(IN+=IN+)
+_    _(IN-=IN-)
+_    _(in_node=IN_NODE)
+_    _(OUT=OUT)
+_    _(REF=REF)
+_    _(VCC=VCC)
+_    _(VEE=VEE)
+.ENDALIASES

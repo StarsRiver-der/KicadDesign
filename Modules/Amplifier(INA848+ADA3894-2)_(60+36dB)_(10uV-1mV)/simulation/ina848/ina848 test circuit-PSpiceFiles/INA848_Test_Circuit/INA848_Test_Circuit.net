@@ -1,0 +1,11 @@
+* source INA848 TEST CIRCUIT
+R_RFL         N28823 N28767  1T  
+V_VINA         N28695 0  AC 1
++SIN 0 50u 230K 0 0 0
+E_E2         0 IN- N28695 0 0.5
+E_E1         IN+ 0 N28695 0 0.5
+V_Vcc         N29049 0 15Vdc
+V_Vee         0 N29106 15Vdc
+R_RL         0 OUT  10k  
+C_CL         0 OUT  15p  TC=0,0 
+X_U1         IN+ IN- N29049 N29106 OUT 0 N28767 N28823 INA848
