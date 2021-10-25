@@ -3242,7 +3242,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061576094)
     (property "Reference" "R7" (id 0) (at 252.73 105.41 90))
-    (property "Value" "7K" (id 1) (at 248.92 104.14 90))
+    (property "Value" "10K" (id 1) (at 248.92 104.14 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 252.73 107.188 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3257,7 +3257,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006157608e)
     (property "Reference" "R8" (id 0) (at 252.73 109.22 90))
-    (property "Value" "10K" (id 1) (at 248.92 107.95 90))
+    (property "Value" "20K" (id 1) (at 248.92 107.95 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 252.73 110.998 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4747,10 +4747,10 @@
       (reference "R6") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061576094"
-      (reference "R7") (unit 1) (value "7K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R7") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006157608e"
-      (reference "R8") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R8") (unit 1) (value "20K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-0000617d541c"
       (reference "R9") (unit 1) (value "5.11K") (footprint "Resistor_SMD:R_0402_1005Metric")
