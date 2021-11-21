@@ -47,7 +47,7 @@
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
       (usegerberextensions false)
-      (usegerberattributes true)
+      (usegerberattributes false)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
       (svguseinch false)
@@ -2724,7 +2724,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 00000000-0000-0000-0000-0000615720ce)
-    (at 143.84 97.6 180)
+    (at 143.9 97.6 180)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Dual-Power.kicad_sch")
@@ -2808,7 +2808,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp 00000000-0000-0000-0000-0000615720f0)
-    (at 143.865 99.8 180)
+    (at 143.9 99.8 180)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Dual-Power.kicad_sch")
