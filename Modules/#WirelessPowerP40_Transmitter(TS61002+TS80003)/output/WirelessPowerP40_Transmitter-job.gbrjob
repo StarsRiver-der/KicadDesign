@@ -3,14 +3,14 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(5.99.0-12889-g70df3822b5)"
+      "Version": "(5.99.0-12896-g1860893d63)"
     },
-    "CreationDate": "2021-12-16T12:54:07+08:00"
+    "CreationDate": "2021-12-17T19:49:05+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "WirelessPowerTransmitter P40",
-      "GUID": "57697265-6c65-4737-9350-6f7765725472",
+      "Name": "WirelessPowerP40_Transmitter",
+      "GUID": "57697265-6c65-4737-9350-6f7765725034",
       "Revision": "rev?"
     },
     "Size": {
@@ -24,8 +24,8 @@
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.15,
+      "PadToTrack": 0.15,
       "TrackToTrack": 0.15,
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.3,
@@ -43,57 +43,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "WirelessPowerTransmitter P40-F_Cu.gbr",
+      "Path": "WirelessPowerP40_Transmitter-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-In1_Cu.gbr",
+      "Path": "WirelessPowerP40_Transmitter-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-In2_Cu.gbr",
+      "Path": "WirelessPowerP40_Transmitter-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-B_Cu.gbr",
+      "Path": "WirelessPowerP40_Transmitter-B_Cu.gbr",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-F_Paste.gbr",
+      "Path": "WirelessPowerP40_Transmitter-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-B_Paste.gbr",
+      "Path": "WirelessPowerP40_Transmitter-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-F_Silkscreen.gbr",
+      "Path": "WirelessPowerP40_Transmitter-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-B_Silkscreen.gbr",
+      "Path": "WirelessPowerP40_Transmitter-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-F_Mask.gbr",
+      "Path": "WirelessPowerP40_Transmitter-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-B_Mask.gbr",
+      "Path": "WirelessPowerP40_Transmitter-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "WirelessPowerTransmitter P40-Edge_Cuts.gbr",
+      "Path": "WirelessPowerP40_Transmitter-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

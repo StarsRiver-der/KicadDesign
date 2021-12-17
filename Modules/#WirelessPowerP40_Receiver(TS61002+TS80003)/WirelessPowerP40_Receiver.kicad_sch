@@ -4701,7 +4701,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 590736dd-ebf3-45ee-95b2-e301d659a959)
   )
-  (text "AC Feedback" (at 22.86 191.77 0)
+  (text "AC Demodulator" (at 22.86 191.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 166e726a-f1d4-4fe2-b2dd-0bb1f67405e9)
   )
