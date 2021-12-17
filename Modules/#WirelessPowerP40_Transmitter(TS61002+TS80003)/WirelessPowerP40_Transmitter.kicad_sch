@@ -5927,7 +5927,7 @@
     (in_bom yes) (on_board yes)
     (uuid 4ada34de-aee2-4f6b-b185-93cfd5d1bdf2)
     (property "Reference" "L2" (id 0) (at 176.53 201.5193 90))
-    (property "Value" "600" (id 1) (at 176.53 199.2144 90))
+    (property "Value" "1uF" (id 1) (at 176.53 199.2144 90))
     (property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-30xx" (id 2) (at 176.53 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -8890,7 +8890,7 @@
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Wuerth_HCI-5040")
     )
     (path "/4ada34de-aee2-4f6b-b185-93cfd5d1bdf2"
-      (reference "L2") (unit 1) (value "600") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-30xx")
+      (reference "L2") (unit 1) (value "1uF") (footprint "Inductor_SMD:L_Taiyo-Yuden_NR-30xx")
     )
     (path "/c3630d00-5600-4f92-b4c4-f58c385b3c6e"
       (reference "LED1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0402_1005Metric")
