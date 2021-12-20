@@ -4,4 +4,5 @@
   (lib (name "MAX")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX.kicad_sym")(options "")(descr ""))
   (lib (name "CSD16406Q3")(type "Legacy")(uri "${KIPRJMOD}/lib/CSD16406Q3.lib")(options "")(descr ""))
   (lib (name "USB_Connector")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "Hynetek")(type "KiCad")(uri "${KIPRJMOD}/lib/Hynetek.kicad_sym")(options "")(descr ""))
 )
