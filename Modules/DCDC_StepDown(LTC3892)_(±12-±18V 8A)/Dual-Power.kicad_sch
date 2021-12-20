@@ -3752,7 +3752,7 @@
     (property "Reference" "C4" (id 0) (at 166.37 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7uF" (id 1) (at 163.83 96.52 0)
+    (property "Value" "2.2uF" (id 1) (at 163.83 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (id 2) (at 169.8752 95.25 0)
@@ -4746,7 +4746,7 @@
       (reference "C3") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000616375a2"
-      (reference "C4") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C4") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-0000616da52e"
       (reference "C5") (unit 1) (value "6.8nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
