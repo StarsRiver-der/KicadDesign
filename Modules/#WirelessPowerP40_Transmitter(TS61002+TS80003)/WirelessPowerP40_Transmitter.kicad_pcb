@@ -5309,7 +5309,7 @@
       (effects (font (size 0.6 0.6) (thickness 0.1)))
       (tstamp 6f7d3f2e-b8cc-45ca-a2c6-5218f52250d7)
     )
-    (fp_text value "28V" (at 0 1.65 90) (layer "F.Fab")
+    (fp_text value "BZT52C30 30V" (at 0 1.65 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4c69bf83-0dec-429a-9616-0468af26119e)
     )
