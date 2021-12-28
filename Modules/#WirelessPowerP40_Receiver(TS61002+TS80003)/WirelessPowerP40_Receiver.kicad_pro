@@ -359,7 +359,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "WirelessPowerTransmitter P40.kicad_pro",
+    "filename": "WirelessPowerP40_Receiver.kicad_pro",
     "version": 1
   },
   "net_settings": {
