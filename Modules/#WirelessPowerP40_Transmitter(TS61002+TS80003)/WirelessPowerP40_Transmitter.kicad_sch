@@ -8117,7 +8117,7 @@
     (property "Reference" "C55" (id 0) (at 317.5 198.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7uF" (id 1) (at 314.96 203.2 0)
+    (property "Value" "4.7uF 25V" (id 1) (at 309.88 200.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 323.5452 204.47 0)
@@ -9012,7 +9012,7 @@
       (reference "C54") (unit 1) (value "NP") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/67a77455-62e1-42e1-8969-ac1bfb352062"
-      (reference "C55") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C55") (unit 1) (value "4.7uF 25V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/851c2200-ac47-4108-9a1e-8ed5adaa0972"
       (reference "C56") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
