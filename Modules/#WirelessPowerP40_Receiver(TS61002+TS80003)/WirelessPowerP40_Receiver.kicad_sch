@@ -8366,7 +8366,7 @@
     (property "Reference" "D3" (id 0) (at 390.652 65.1315 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BAS21-03W" (id 1) (at 385.572 59.0166 0)
+    (property "Value" "BAS21" (id 1) (at 385.572 59.0166 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 384.175 64.77 0)
@@ -10466,7 +10466,7 @@
       (reference "D2") (unit 1) (value "BAT54SW") (footprint "Package_TO_SOT_SMD:SOT-323_SC-70")
     )
     (path "/abcfd435-36b6-4f62-a394-eceb31585174"
-      (reference "D3") (unit 1) (value "BAS21-03W") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "D3") (unit 1) (value "BAS21") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/955631f0-539a-4575-ac32-cb56699bab8b"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")

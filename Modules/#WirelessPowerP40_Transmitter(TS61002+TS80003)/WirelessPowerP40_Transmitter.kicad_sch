@@ -8361,7 +8361,7 @@
     (uuid c8643f53-1b98-45e8-b27d-3ee379eeaf5b)
     (property "Reference" "U3" (id 0) (at 120.65 208.28 0))
     (property "Value" "74LVC1G66" (id 1) (at 124.46 210.82 0))
-    (property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm" (id 2) (at 115.57 214.63 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (id 2) (at 115.57 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf" (id 3) (at 115.57 201.93 0)
@@ -9228,7 +9228,7 @@
       (reference "U2") (unit 1) (value "TS94033") (footprint "Package_TO_SOT_SMD:SOT-23-8")
     )
     (path "/c8643f53-1b98-45e8-b27d-3ee379eeaf5b"
-      (reference "U3") (unit 1) (value "74LVC1G66") (footprint "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm")
+      (reference "U3") (unit 1) (value "74LVC1G66") (footprint "Package_TO_SOT_SMD:SOT-353_SC-70-5")
     )
     (path "/e64d24d3-af22-4b21-be4c-da34f739942d"
       (reference "U4") (unit 1) (value "TS61002") (footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm")
