@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(5.99.0-12896-g1860893d63)*%
-%TF.CreationDate,2022-01-13T10:40:09+08:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0)*%
+%TF.CreationDate,2022-01-13T15:01:11+08:00*%
 %TF.ProjectId,WirelessPowerP40_Receiver,57697265-6c65-4737-9350-6f7765725034,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L4,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.99.0-12896-g1860893d63)) date 2022-01-13 10:40:09*
+G04 Created by KiCad (PCBNEW (6.0.0)) date 2022-01-13 15:01:11*
 %MOMM*%
 %LPD*%
 G01*
@@ -158,7 +158,7 @@ D10*
 X148725000Y-71175000D03*
 D11*
 %TO.P,J2,2,Pin_2*%
-%TO.N,Net-(R39-Pad2)*%
+%TO.N,Net-(J2-Pad2)*%
 X150725000Y-71175000D03*
 %TO.P,J2,3,Pin_3*%
 %TO.N,Net-(J2-Pad3)*%
@@ -566,7 +566,7 @@ X135710000Y-104030000D03*
 X142360002Y-95839998D03*
 X149150000Y-93339999D03*
 X151425000Y-95739998D03*
-%TO.N,Net-(R39-Pad2)*%
+%TO.N,Net-(J2-Pad2)*%
 X152410000Y-76260000D03*
 %TO.N,Net-(J3-Pad2)*%
 X145190000Y-81120000D03*

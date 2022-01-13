@@ -160,8 +160,8 @@
   (net 76 "Net-(R24-Pad1)")
   (net 77 "Net-(R25-Pad1)")
   (net 78 "Net-(R27-Pad2)")
-  (net 79 "Net-(U5-Pad19)")
-  (net 80 "Net-(U5-Pad20)")
+  (net 79 "Net-(J2-Pad2)")
+  (net 80 "Net-(J2-Pad3)")
   (net 81 "Net-(J3-Pad2)")
   (net 82 "Net-(J3-Pad3)")
   (net 83 "Net-(C56-Pad2)")
@@ -299,7 +299,7 @@
     (pad "1" smd roundrect locked (at -0.51 0 180) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 21 "+3V3") (pintype "passive") (tstamp afd80320-65ea-4460-96e2-c99b91cc8ecb))
     (pad "2" smd roundrect locked (at 0.51 0 180) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 79 "Net-(U5-Pad19)") (pintype "passive") (tstamp 160df58a-43de-45dd-8ec5-0cf23f519681))
+      (net 79 "Net-(J2-Pad2)") (pintype "passive") (tstamp 160df58a-43de-45dd-8ec5-0cf23f519681))
     (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1946,7 +1946,7 @@
     (pad "1" smd roundrect locked (at -0.51 0 180) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 21 "+3V3") (pintype "passive") (tstamp 771ce17e-cbdc-431e-8289-6a18a5f5a00f))
     (pad "2" smd roundrect locked (at 0.51 0 180) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 80 "Net-(U5-Pad20)") (pintype "passive") (tstamp e6963b5b-8fe8-435e-9f73-d271d42f91d1))
+      (net 80 "Net-(J2-Pad3)") (pintype "passive") (tstamp e6963b5b-8fe8-435e-9f73-d271d42f91d1))
     (model "${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -5157,9 +5157,9 @@
     (pad "1" thru_hole rect locked (at 0 0 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 21 "+3V3") (pinfunction "Pin_1") (pintype "passive") (tstamp 6f876c2d-f57b-45f0-8c28-15f17ffc82d1))
     (pad "2" thru_hole oval locked (at 0 2 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
-      (net 79 "Net-(U5-Pad19)") (pinfunction "Pin_2") (pintype "passive") (tstamp 4f907059-9285-486b-b8cb-878c109d0b17))
+      (net 79 "Net-(J2-Pad2)") (pinfunction "Pin_2") (pintype "passive") (tstamp 4f907059-9285-486b-b8cb-878c109d0b17))
     (pad "3" thru_hole oval locked (at 0 4 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
-      (net 80 "Net-(U5-Pad20)") (pinfunction "Pin_3") (pintype "passive") (tstamp 1830b755-f251-414f-8550-8c8e773f8cba))
+      (net 80 "Net-(J2-Pad3)") (pinfunction "Pin_3") (pintype "passive") (tstamp 1830b755-f251-414f-8550-8c8e773f8cba))
     (pad "4" thru_hole oval locked (at 0 6 90) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp e9bbfbce-ec1e-405d-ad98-f070051d84f5))
     (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x04_P2.00mm_Vertical.wrl"
@@ -6064,9 +6064,9 @@
     (pad "18" smd roundrect locked (at 1 2.4375 90) (size 0.25 0.825) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 55 "DRV_EN") (pinfunction "DRV_EN") (pintype "output") (tstamp 6571e7db-f308-4b5b-ab19-c511a0d02033))
     (pad "19" smd roundrect locked (at 1.4 2.4375 90) (size 0.25 0.825) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 79 "Net-(U5-Pad19)") (pinfunction "I2C|SCL") (pintype "input") (tstamp 9a9899a3-cf31-4d47-a632-4ec55f92e588))
+      (net 79 "Net-(J2-Pad2)") (pinfunction "I2C|SCL") (pintype "input") (tstamp 9a9899a3-cf31-4d47-a632-4ec55f92e588))
     (pad "20" smd roundrect locked (at 1.8 2.4375 90) (size 0.25 0.825) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 80 "Net-(U5-Pad20)") (pinfunction "I2C|SDA") (pintype "input") (tstamp ad19fd20-8a2a-4676-a5b7-0ca0785886f6))
+      (net 80 "Net-(J2-Pad3)") (pinfunction "I2C|SDA") (pintype "input") (tstamp ad19fd20-8a2a-4676-a5b7-0ca0785886f6))
     (pad "21" smd roundrect locked (at 2.4375 1.8 90) (size 0.825 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 64 "unconnected-(U5-Pad21)") (pinfunction "BST|L") (pintype "input+no_connect") (tstamp 7083b165-0649-4810-b5c8-2f4ff0fdb6fe))
     (pad "22" smd roundrect locked (at 2.4375 1.4 90) (size 0.825 0.25) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
@@ -6404,7 +6404,6 @@
   (gr_line (start 127.759999 77.309999) (end 121.159999 77.310001) (layer "F.SilkS") (width 0.1) (tstamp ff9533b6-deec-4c68-ba77-69ce947839b7))
   (gr_poly
     (pts
-
       (xy 145.72 82.413652)
       (xy 145.72 78.766348)
       (xy 146.37 78.766348)
@@ -6413,7 +6412,6 @@
   (gr_rect (start 128.105 83.44) (end 129.875 84.56) (layer "F.Mask") (width 0.15) (fill solid) (tstamp 2906a3fc-3d83-4a8d-b8c7-3f1f27e4a3d8))
   (gr_poly
     (pts
-
       (xy 150.59 82.423652)
       (xy 150.59 78.776348)
       (xy 151.24 78.776348)
