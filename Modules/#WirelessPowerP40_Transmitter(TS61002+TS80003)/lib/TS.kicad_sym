@@ -1,5 +1,5 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "TS:TS30041" (in_bom yes) (on_board yes)
+  (symbol "TS30041" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -19,7 +19,7 @@
       )
     )
     (symbol "TS30041_1_1"
-      (pin output line (at 10.16 6.35 180) (length 2.54)
+      (pin passive line (at 10.16 6.35 180) (length 2.54)
         (name "VSW" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
@@ -31,11 +31,11 @@
         (name "VCC" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 10.16 6.35 180) (length 2.54) hide
+      (pin passive line (at 10.16 6.35 180) (length 2.54) hide
         (name "VSW" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 10.16 6.35 180) (length 2.54) hide
+      (pin passive line (at 10.16 6.35 180) (length 2.54) hide
         (name "VSW" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
@@ -47,7 +47,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "15" (effects (font (size 1.27 1.27))))
       )
-      (pin output line (at 10.16 6.35 180) (length 2.54) hide
+      (pin passive line (at 10.16 6.35 180) (length 2.54) hide
         (name "VSW" (effects (font (size 1.27 1.27))))
         (number "16" (effects (font (size 1.27 1.27))))
       )
@@ -81,7 +81,7 @@
       )
     )
   )
-  (symbol "TS:TS61002" (in_bom yes) (on_board yes)
+  (symbol "TS61002" (in_bom yes) (on_board yes)
     (property "Reference" "U4" (id 0) (at 0.635 55.9857 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -219,7 +219,7 @@
       )
     )
   )
-  (symbol "TS:TS80003" (in_bom yes) (on_board yes)
+  (symbol "TS80003" (in_bom yes) (on_board yes)
     (property "Reference" "U?" (id 0) (at -0.635 44.5557 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -405,7 +405,7 @@
       )
     )
   )
-  (symbol "TS:TS94033" (in_bom yes) (on_board yes)
+  (symbol "TS94033" (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 0 15.24 0)
       (effects (font (size 1.27 1.27)))
     )

@@ -5,14 +5,14 @@
   (paper "A3")
 
   (lib_symbols
-    (symbol "74xGxx:74LVC1G66" (in_bom yes) (on_board yes)
-      (property "Reference" "U?" (id 0) (at -6.35 8.9196 0)
+    (symbol "74xGxx:74LVC1G66-full" (in_bom yes) (on_board yes)
+      (property "Reference" "U3" (id 0) (at 5.08 6.35 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "74LVC1G66" (id 1) (at -6.35 6.1445 0)
+      (property "Value" "74LVC1G66-full" (id 1) (at 8.89 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g66.pdf" (id 3) (at 0 12.7 0)
@@ -27,7 +27,7 @@
       (property "ki_fp_filters" "SOT* SC*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "74LVC1G66_0_1"
+      (symbol "74LVC1G66-full_0_1"
         (circle (center -3.556 -3.81) (radius 0.127)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
@@ -106,7 +106,7 @@
           (fill (type none))
         )
       )
-      (symbol "74LVC1G66_1_1"
+      (symbol "74LVC1G66-full_1_1"
         (pin bidirectional line (at -6.35 0 0) (length 2.54)
           (name "~" (effects (font (size 1.016 1.016))))
           (number "1" (effects (font (size 1.016 1.016))))
@@ -1737,10 +1737,10 @@
       )
     )
     (symbol "MAX:max31740" (in_bom yes) (on_board yes)
-      (property "Reference" "U8" (id 0) (at 0.635 5.1858 0)
+      (property "Reference" "U8" (id 0) (at 1.27 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "max31740" (id 1) (at 0.635 2.4107 0)
+      (property "Value" "max31740" (id 1) (at 1.27 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "Package_DFN_QFN:TDFN-8-1EP_3x2mm_P0.5mm_EP1.80x1.65mm" (id 2) (at 0 0 0)
@@ -1843,7 +1843,7 @@
         )
       )
       (symbol "TS30041_1_1"
-        (pin output line (at 10.16 6.35 180) (length 2.54)
+        (pin passive line (at 10.16 6.35 180) (length 2.54)
           (name "VSW" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -1855,11 +1855,11 @@
           (name "VCC" (effects (font (size 1.27 1.27))))
           (number "11" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 6.35 180) (length 2.54) hide
+        (pin passive line (at 10.16 6.35 180) (length 2.54) hide
           (name "VSW" (effects (font (size 1.27 1.27))))
           (number "12" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 6.35 180) (length 2.54) hide
+        (pin passive line (at 10.16 6.35 180) (length 2.54) hide
           (name "VSW" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
@@ -1871,7 +1871,7 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 6.35 180) (length 2.54) hide
+        (pin passive line (at 10.16 6.35 180) (length 2.54) hide
           (name "VSW" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
@@ -2656,6 +2656,7 @@
       )
     )
   )
+
 
   (junction (at 304.8 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 011ee658-718d-416a-85fd-961729cd1ee5)
@@ -5747,8 +5748,8 @@
     (pin "4" (uuid 4d2931a8-7c1e-4d4a-aecd-234fd6778524))
     (pin "5" (uuid 52323d95-8149-4688-8350-47fb3a41d43f))
     (pin "6" (uuid 36ec53c1-0e49-4038-85e2-24240f9d5b66))
-    (pin "7" (uuid fd157e62-d92a-4795-9f2a-607a01829311))
-    (pin "7" (uuid fd157e62-d92a-4795-9f2a-607a01829311))
+    (pin "7" (uuid fd157e62-d92a-4795-9f2a-607a01829312))
+    (pin "7" (uuid fd157e62-d92a-4795-9f2a-607a01829312))
   )
 
   (symbol (lib_id "Device:C") (at 127 252.73 180) (unit 1)
@@ -8059,7 +8060,7 @@
     (pin "2" (uuid c28c4eac-c9a5-48ea-a2a0-c360a559edd9))
   )
 
-  (symbol (lib_id "74xGxx:74LVC1G66") (at 115.57 214.63 0) (unit 1)
+  (symbol (lib_id "74xGxx:74LVC1G66-full") (at 115.57 214.63 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c8643f53-1b98-45e8-b27d-3ee379eeaf5b)
     (property "Reference" "U3" (id 0) (at 120.65 208.28 0))
@@ -8433,8 +8434,8 @@
     (pin "4" (uuid ff965fee-deef-4ad0-aa75-2e68f4e940ce))
     (pin "5" (uuid 14841421-a73e-4719-97fb-c605b1677ff0))
     (pin "6" (uuid 2810308c-07c1-4c43-acf5-510f599d43f3))
-    (pin "7" (uuid e7aa71c6-1991-480b-8cff-ea2f0e73fad8))
-    (pin "7" (uuid e7aa71c6-1991-480b-8cff-ea2f0e73fad8))
+    (pin "7" (uuid e7aa71c6-1991-480b-8cff-ea2f0e73fad9))
+    (pin "7" (uuid e7aa71c6-1991-480b-8cff-ea2f0e73fad9))
   )
 
   (symbol (lib_id "power:+5V") (at 313.69 195.58 90) (unit 1)
