@@ -637,11 +637,11 @@
         )
       )
     )
-    (symbol "Device:Q_NPN_EBC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "Device:Q_NPN_BEC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (id 0) (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "Q_NPN_EBC" (id 1) (at 5.08 -1.27 0)
+      (property "Value" "Q_NPN_BEC" (id 1) (at 5.08 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "" (id 2) (at 5.08 2.54 0)
@@ -653,10 +653,10 @@
       (property "ki_keywords" "transistor NPN" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "NPN transistor, emitter/base/collector" (id 5) (at 0 0 0)
+      (property "ki_description" "NPN transistor, base/emitter/collector" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "Q_NPN_EBC_0_1"
+      (symbol "Q_NPN_BEC_0_1"
         (polyline
           (pts
             (xy 0.635 0.635)
@@ -699,13 +699,13 @@
           (fill (type none))
         )
       )
-      (symbol "Q_NPN_EBC_1_1"
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "E" (effects (font (size 1.27 1.27))))
+      (symbol "Q_NPN_BEC_1_1"
+        (pin input line (at -5.08 0 0) (length 5.715)
+          (name "B" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at -5.08 0 0) (length 5.715)
-          (name "B" (effects (font (size 1.27 1.27))))
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "E" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 2.54 5.08 270) (length 2.54)
@@ -3827,13 +3827,13 @@
     (pin "2" (uuid ddbf44ea-873d-4ca0-a023-52c500d380cf))
   )
 
-  (symbol (lib_id "Device:Q_NPN_EBC") (at 246.38 121.92 0) (unit 1)
+  (symbol (lib_id "Device:Q_NPN_BEC") (at 246.38 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1edb2be0-b3e0-46f5-bfe4-e9c67541b25b)
     (property "Reference" "Q1" (id 0) (at 251.2314 121.0115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Q_NPN_EBC" (id 1) (at 251.2314 123.7866 0)
+    (property "Value" "MMBT3904LT1G(1AM)" (id 1) (at 251.2314 123.7866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 251.46 119.38 0)
@@ -5719,7 +5719,7 @@
       (reference "L2") (unit 1) (value "3R3") (footprint "Inductor_SMD:L_Neosid_SMS-ME3015")
     )
     (path "/1edb2be0-b3e0-46f5-bfe4-e9c67541b25b"
-      (reference "Q1") (unit 1) (value "Q_NPN_EBC") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "MMBT3904LT1G(1AM)") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/4d95e323-6704-4eb1-a19c-f033972fd2a0"
       (reference "Q2") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
