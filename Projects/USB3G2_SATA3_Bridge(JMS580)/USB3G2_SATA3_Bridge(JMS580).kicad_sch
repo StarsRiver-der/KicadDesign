@@ -1821,6 +1821,8 @@
   (no_connect (at 39.37 60.96) (uuid 510aca89-2677-4691-9e89-94702a44a959))
   (no_connect (at 39.37 63.5) (uuid 510aca89-2677-4691-9e89-94702a44a95a))
   (no_connect (at 39.37 58.42) (uuid 510aca89-2677-4691-9e89-94702a44a95b))
+  (no_connect (at 133.35 115.57) (uuid 559c7111-1a2d-4091-bf40-d167e49399ac))
+  (no_connect (at 133.35 113.03) (uuid 559c7111-1a2d-4091-bf40-d167e49399ad))
   (no_connect (at 134.62 115.57) (uuid 8916802a-b95f-45fc-867a-be788226ae1b))
   (no_connect (at 134.62 113.03) (uuid 8916802a-b95f-45fc-867a-be788226ae1d))
 
@@ -4607,7 +4609,7 @@
     (property "Value" "TestPoint" (id 1) (at 177.419 182.2066 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (id 2) (at 172.72 185.42 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 172.72 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 172.72 185.42 0)
@@ -4662,7 +4664,7 @@
     (property "Value" "TestPoint" (id 1) (at 177.419 184.7466 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "" (id 2) (at 172.72 187.96 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 172.72 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 172.72 187.96 0)
@@ -4825,6 +4827,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 21.59 213.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 44.45 213.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid aa5e381f-9af5-4fa9-8bc8-1fe45b001137)
+    (property "Reference" "H4" (id 0) (at 46.99 212.4515 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (id 1) (at 46.99 215.2266 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Symbol:ESD-Logo_6.6x6mm_SilkScreen" (id 2) (at 44.45 213.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 44.45 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -5310,7 +5329,7 @@
     (uuid f19ab928-a71b-4fdd-893d-289cb4b88ac7)
     (property "Reference" "R1" (id 0) (at 251.46 154.94 90))
     (property "Value" "0R" (id 1) (at 251.46 152.4 90))
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 251.46 153.162 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 251.46 153.162 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 251.46 154.94 0)
@@ -5684,6 +5703,9 @@
     (path "/60166394-ef7e-4d00-8166-96ecfc14dcb6"
       (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via")
     )
+    (path "/aa5e381f-9af5-4fa9-8bc8-1fe45b001137"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "Symbol:ESD-Logo_6.6x6mm_SilkScreen")
+    )
     (path "/b97d5994-9bcb-4763-85c8-744d5971f71d"
       (reference "J1") (unit 1) (value "ATA-A") (footprint "lib:SATA-22P-M")
     )
@@ -5706,7 +5728,7 @@
       (reference "Q3") (unit 1) (value "AO3400A") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/f19ab928-a71b-4fdd-893d-289cb4b88ac7"
-      (reference "R1") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R1") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/25f163c8-b901-4e86-8aef-3e24ed3f1f2b"
       (reference "R2") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -5766,10 +5788,10 @@
       (reference "R20") (unit 1) (value "510K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/9324a5d8-df10-40f4-a586-be13060eaaaa"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/96bcae62-54a4-4017-ba90-ec5c8ae58df7"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "")
+      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/3f90ca07-e4d3-4f1b-91dd-571765506dae"
       (reference "U1") (unit 1) (value "W25Q32JVZP") (footprint "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm")
