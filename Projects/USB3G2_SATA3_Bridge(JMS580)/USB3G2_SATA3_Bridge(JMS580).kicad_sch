@@ -3836,7 +3836,7 @@
     (property "Value" "Q_NPN_EBC" (id 1) (at 251.2314 123.7866 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:TSOT-23" (id 2) (at 251.46 119.38 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 251.46 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 246.38 121.92 0)
@@ -5719,7 +5719,7 @@
       (reference "L2") (unit 1) (value "3R3") (footprint "Inductor_SMD:L_Neosid_SMS-ME3015")
     )
     (path "/1edb2be0-b3e0-46f5-bfe4-e9c67541b25b"
-      (reference "Q1") (unit 1) (value "Q_NPN_EBC") (footprint "Package_TO_SOT_SMD:TSOT-23")
+      (reference "Q1") (unit 1) (value "Q_NPN_EBC") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/4d95e323-6704-4eb1-a19c-f033972fd2a0"
       (reference "Q2") (unit 1) (value "AO3401A") (footprint "Package_TO_SOT_SMD:SOT-23")
