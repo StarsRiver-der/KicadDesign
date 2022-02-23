@@ -4003,7 +4003,7 @@
     (in_bom yes) (on_board yes)
     (uuid 33310d76-3737-42f0-a38e-45b14928c7dd)
     (property "Reference" "R4" (id 0) (at 229.87 125.73 90))
-    (property "Value" "4K7" (id 1) (at 227.33 125.73 90))
+    (property "Value" "4.7K" (id 1) (at 227.33 125.73 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 231.648 125.73 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4557,7 +4557,7 @@
     (in_bom yes) (on_board yes)
     (uuid 8f39036b-42db-4ec4-bdcd-4e6c2f0b0f66)
     (property "Reference" "R6" (id 0) (at 237.49 121.92 90))
-    (property "Value" "4K7" (id 1) (at 237.49 119.38 90))
+    (property "Value" "4.7K" (id 1) (at 237.49 119.38 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 237.49 123.698 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4722,7 +4722,7 @@
     (in_bom yes) (on_board yes)
     (uuid a1d9da60-23e2-4ea6-b26b-8ab9418510c3)
     (property "Reference" "R17" (id 0) (at 252.73 59.69 90))
-    (property "Value" "4K7" (id 1) (at 252.73 62.23 90))
+    (property "Value" "4.7K" (id 1) (at 252.73 62.23 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 252.73 57.912 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5737,13 +5737,13 @@
       (reference "R3") (unit 1) (value "12K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/33310d76-3737-42f0-a38e-45b14928c7dd"
-      (reference "R4") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/20cd0897-de99-4398-b97c-f8d47b7f76a0"
       (reference "R5") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/8f39036b-42db-4ec4-bdcd-4e6c2f0b0f66"
-      (reference "R6") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R6") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b065e418-40da-4eb8-a0e4-34e07e6a886a"
       (reference "R7") (unit 1) (value "510K") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -5776,7 +5776,7 @@
       (reference "R16") (unit 1) (value "510K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a1d9da60-23e2-4ea6-b26b-8ab9418510c3"
-      (reference "R17") (unit 1) (value "4K7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R17") (unit 1) (value "4.7K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/5754544a-f0a2-46bf-90ae-96344532fafe"
       (reference "R18") (unit 1) (value "100K") (footprint "Resistor_SMD:R_0402_1005Metric")
