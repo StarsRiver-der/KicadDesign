@@ -4296,7 +4296,7 @@
     (in_bom yes) (on_board yes)
     (uuid 64fe547e-6259-4a54-9b77-8018a1c05709)
     (property "Reference" "R10" (id 0) (at 274.32 95.25 90))
-    (property "Value" "0R" (id 1) (at 274.32 92.71 90))
+    (property "Value" "0R / NS" (id 1) (at 274.32 92.71 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 274.32 97.028 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5755,7 +5755,7 @@
       (reference "R9") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/64fe547e-6259-4a54-9b77-8018a1c05709"
-      (reference "R10") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R10") (unit 1) (value "0R / NS") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/a6ed30d5-b3a0-4409-81c2-f6b3b8353609"
       (reference "R11") (unit 1) (value "2R2") (footprint "Resistor_SMD:R_0402_1005Metric")
