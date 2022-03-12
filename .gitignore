@@ -8,4 +8,4 @@ out
 gen
 
 #Kicad files
-*.prl
+/**/*.kicad_prl
