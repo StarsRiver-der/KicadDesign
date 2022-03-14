@@ -4469,8 +4469,8 @@
   (symbol (lib_id "Device:L") (at 246.38 187.96 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 85e25dad-19a5-422e-a3d1-8d0de62da00e)
-    (property "Reference" "L1" (id 0) (at 246.38 191.77 90))
-    (property "Value" "4R7" (id 1) (at 246.38 189.23 90))
+    (property "Reference" "L1" (id 0) (at 246.38 189.23 90))
+    (property "Value" "4R7 / NS" (id 1) (at 246.38 185.42 90))
     (property "Footprint" "Inductor_SMD:L_Neosid_SMS-ME3015" (id 2) (at 246.38 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -5713,7 +5713,7 @@
       (reference "J2") (unit 1) (value "USB_C_Receptacle") (footprint "lib:USB-C_24p")
     )
     (path "/85e25dad-19a5-422e-a3d1-8d0de62da00e"
-      (reference "L1") (unit 1) (value "4R7") (footprint "Inductor_SMD:L_Neosid_SMS-ME3015")
+      (reference "L1") (unit 1) (value "4R7 / NS") (footprint "Inductor_SMD:L_Neosid_SMS-ME3015")
     )
     (path "/ba050d1b-23c3-4300-94f4-d2d79b7ef8d1"
       (reference "L2") (unit 1) (value "3R3") (footprint "Inductor_SMD:L_Neosid_SMS-ME3015")
