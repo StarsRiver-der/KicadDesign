@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name BQ24170)(type Legacy)(uri ${KIPRJMOD}/Lib/BQ24170.lib)(options "")(descr ""))
-  (lib (name TPS61288)(type Legacy)(uri ${KIPRJMOD}/Lib/TPS61288.lib)(options "")(descr ""))
+  (lib (name "BQ24170")(type "Legacy")(uri "${KIPRJMOD}/lib/BQ24170.lib")(options "")(descr ""))
+  (lib (name "TPS61288")(type "Legacy")(uri "${KIPRJMOD}/lib/TPS61288.lib")(options "")(descr ""))
 )

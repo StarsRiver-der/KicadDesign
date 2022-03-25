@@ -9,3 +9,4 @@ gen
 
 #Kicad files
 /**/*.kicad_prl
+/**/fp-info-cache

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "mp14xx")(type "Legacy")(uri "${KIPRJMOD}/lib/mp14xx.lib")(options "")(descr ""))
+  (lib (name "PCI")(type "Legacy")(uri "${KIPRJMOD}/lib/PCI.lib")(options "")(descr ""))
+  (lib (name "TPS61088RHLR")(type "Legacy")(uri "${KIPRJMOD}/lib/TPS61088RHLR.lib")(options "")(descr ""))
+)

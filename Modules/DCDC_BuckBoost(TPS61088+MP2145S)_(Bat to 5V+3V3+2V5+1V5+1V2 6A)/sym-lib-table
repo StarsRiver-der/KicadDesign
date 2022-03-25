@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name PCI)(type Legacy)(uri ${KIPRJMOD}/Lib/PCI.lib)(options "")(descr ""))
-  (lib (name TPS61088RHLR)(type Legacy)(uri ${KIPRJMOD}/Lib/TPS61088RHLR.lib)(options "")(descr ""))
-  (lib (name MP2145)(type Legacy)(uri ${KIPRJMOD}/Lib/MP2145.lib)(options "")(descr ""))
-)
