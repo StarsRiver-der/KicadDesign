@@ -9,5 +9,9 @@
 # 原理
 见说明手册
 
+# 接口
+* 电压输入和控制输入：FPC_Hirose_FH12-14S
+* 电压输出和控制输出：PCI_1x
+
 # 预览
 ![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/DCDC_BuckBoost(TPS61088+MP2145S)_(Bat%20to%205V+3V3+2V5+1V5+1V2%206A)/preview.jpg)
