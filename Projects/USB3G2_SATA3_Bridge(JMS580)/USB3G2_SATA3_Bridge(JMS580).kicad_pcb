@@ -216,7 +216,7 @@
       (effects (font (size 0.6 0.6) (thickness 0.1)))
       (tstamp f8b07d01-903e-4e3f-8f6f-cdece65f4143)
     )
-    (fp_text value "4R7" (at -0.1 2.8) (layer "F.Fab")
+    (fp_text value "4R7 / NS" (at -0.1 2.8) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp be15977e-08c4-4134-888d-97385a0345d6)
     )
