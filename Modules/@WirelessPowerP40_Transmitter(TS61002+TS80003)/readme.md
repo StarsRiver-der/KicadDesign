@@ -1,1 +1,1 @@
-![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/%23WirelessPowerP40_Transmitter(TS61002+TS80003)/preview.jpg)
+![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/@WirelessPowerP40_Transmitter(TS61002+TS80003)/preview.jpg)

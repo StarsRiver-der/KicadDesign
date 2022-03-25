@@ -6,3 +6,6 @@
 
 # 原理
 见说明手册
+
+# 预览
+![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/WirelessPowerReceiver(BQ51013+BQ24040+BQ2970)_(5V%201A)/preview.jpg)

@@ -1,0 +1,1 @@
+![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/@WirelessPowerP40_Receiver(TS61002+TS80003)/preview.jpg)

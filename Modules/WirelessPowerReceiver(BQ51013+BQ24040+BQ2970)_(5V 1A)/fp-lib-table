@@ -1,5 +1,3 @@
 (fp_lib_table
-  (lib (name "BC")(type "KiCad")(uri "${KIPRJMOD}/lib/BC.pretty")(options "")(descr ""))
-  (lib (name "BQ24040")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ24040")(options "")(descr ""))
-  (lib (name "BQ51013B")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ51013B")(options "")(descr ""))
+  (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
 )
