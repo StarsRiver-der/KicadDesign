@@ -17,4 +17,4 @@
 * 电源输出：Molex_43045-1012
 
 # 预览
-![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/DCDC_StepDown(LTC3892)_(%C2%B112-%C2%B118V%208A)/preview.jpg)
+![Image text](preview.jpg)

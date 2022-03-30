@@ -14,4 +14,4 @@
 * 电压输出和控制输出：PCI_1x
 
 # 预览
-![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/DCDC_BuckBoost(TPS61088+MP1495S)_(Bat%20to%205V+3V3+2V5+1V5+1V2%203A)/preview.jpg)
+![Image text](preview.jpg)

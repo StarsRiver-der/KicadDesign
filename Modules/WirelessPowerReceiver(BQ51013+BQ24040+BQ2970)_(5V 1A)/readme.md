@@ -12,4 +12,4 @@
 * 输出和无线充电电流控制：FPC_Hirose_FH12-14S
 
 # 预览
-![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/WirelessPowerReceiver(BQ51013+BQ24040+BQ2970)_(5V%201A)/preview.jpg)
+![Image text](preview.jpg)

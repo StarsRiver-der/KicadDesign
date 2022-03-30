@@ -6,4 +6,4 @@
 * 电压输出：PogoPin_4.8mm_4P
 
 # 预览
-![Image text](http://git.starsriver.net:8110/starsriver/circuits-design/-/raw/master/Modules/@WirelessPowerP40_Receiver(TS61002+TS80003)/preview.jpg)
+![Image text](preview.jpg)
