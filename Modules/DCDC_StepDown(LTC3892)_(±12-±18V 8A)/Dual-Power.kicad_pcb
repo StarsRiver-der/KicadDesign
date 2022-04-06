@@ -10,6 +10,8 @@
     (1 "In1.Cu" signal)
     (2 "In2.Cu" mixed)
     (31 "B.Cu" mixed)
+    (32 "B.Adhes" user "B.Adhesive")
+    (33 "F.Adhes" user "F.Adhesive")
     (34 "B.Paste" user)
     (35 "F.Paste" user)
     (36 "B.SilkS" user "B.Silkscreen")

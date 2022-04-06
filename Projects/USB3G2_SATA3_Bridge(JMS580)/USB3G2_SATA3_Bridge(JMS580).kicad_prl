@@ -62,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "800ffff_ffffffff",
+    "visible_layers": "000f0ff_80000007",
     "zone_display_mode": 0
   },
   "meta": {
@@ -70,19 +70,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "USB3G2_SATA3_Bridge(JMS580).kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
-        }
-      }
-    ]
+    "files": []
   }
 }
