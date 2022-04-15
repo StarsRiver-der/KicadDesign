@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "SO-DIMM-DDR4-pcb")(type "Legacy")(uri "${KIPRJMOD}/lib/SO-DIMM-DDR4-pcb.lib")(options "")(descr ""))
+  (lib (name "SO-DIMM-DDR4-slot")(type "Legacy")(uri "${KIPRJMOD}/lib/SO-DIMM-DDR4-slot.lib")(options "")(descr ""))
+)
