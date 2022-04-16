@@ -61,7 +61,7 @@
       35,
       36
     ],
-    "visible_layers": "000f0cf_8000001f",
+    "visible_layers": "000f0ff_8000001f",
     "zone_display_mode": 0
   },
   "meta": {
@@ -69,31 +69,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "XC6SLX25(FTG256)_CoreBoard.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
-        }
-      },
-      {
-        "name": "XC6SLX25(FTG256)_CoreBoard.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
-        }
-      }
-    ]
+    "files": []
   }
 }
