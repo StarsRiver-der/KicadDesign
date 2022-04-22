@@ -428,7 +428,7 @@
           "/DDR_~{CAS}",
           "/DDR_~{RAS}"
         ],
-        "pcb_color": "rgba(77, 193, 162, 0.800)",
+        "pcb_color": "rgba(39, 208, 178, 0.890)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -467,7 +467,7 @@
           "/DDR_MD7",
           "/DDR_MLDM"
         ],
-        "pcb_color": "rgba(244, 116, 255, 0.800)",
+        "pcb_color": "rgba(244, 116, 255, 0.871)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -505,7 +505,7 @@
           "/DDR_UDQS+",
           "/DDR_UDQS-"
         ],
-        "pcb_color": "rgba(47, 136, 255, 0.800)",
+        "pcb_color": "rgba(47, 136, 255, 0.871)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -563,7 +563,7 @@
           "/Bank0_L7+",
           "/Bank0_L7-"
         ],
-        "pcb_color": "rgba(50, 225, 57, 0.800)",
+        "pcb_color": "rgba(50, 225, 57, 0.890)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -636,7 +636,7 @@
           "/Bank1_L74+",
           "/Bank1_L74-"
         ],
-        "pcb_color": "rgba(0, 189, 255, 0.800)",
+        "pcb_color": "rgba(0, 189, 255, 0.878)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -683,7 +683,7 @@
           "/Bank2_L64+",
           "/Bank2_L64-"
         ],
-        "pcb_color": "rgba(223, 129, 255, 0.800)",
+        "pcb_color": "rgba(223, 129, 255, 0.871)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
