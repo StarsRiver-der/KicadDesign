@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [
@@ -568,7 +568,7 @@
           "/Bank0_L7+",
           "/Bank0_L7-"
         ],
-        "pcb_color": "rgba(50, 225, 57, 0.890)",
+        "pcb_color": "rgba(255, 56, 217, 0.890)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.4,
@@ -672,6 +672,7 @@
           "/Bank2_L29-",
           "/Bank2_L30+",
           "/Bank2_L30-",
+          "/Bank2_L31+",
           "/Bank2_L31-",
           "/Bank2_L32+",
           "/Bank2_L32-",
