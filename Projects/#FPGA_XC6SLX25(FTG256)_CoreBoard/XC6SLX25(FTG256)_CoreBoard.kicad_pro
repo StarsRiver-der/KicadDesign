@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -107,7 +107,7 @@
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
-        "max_error": 0.005,
+        "max_error": 0.002,
         "min_clearance": 0.09999999999999999,
         "min_copper_edge_clearance": 0.09999999999999999,
         "min_hole_clearance": 0.09999999999999999,
@@ -675,7 +675,6 @@
           "/Bank2_L31+",
           "/Bank2_L31-",
           "/Bank2_L32+",
-          "/Bank2_L32-",
           "/Bank2_L47+",
           "/Bank2_L47-",
           "/Bank2_L48+",
