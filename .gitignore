@@ -2,6 +2,7 @@
 ### Example user template
 
 # IntelliJ project files
+.git
 .idea
 *.iml
 out
