@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name "SO-DIMM-DDR4-pcb")(type "KiCad")(uri "${KIPRJMOD}/lib/SO-DIMM-DDR4-pcb.kicad_sym")(options "")(descr ""))
-  (lib (name "SO-DIMM-DDR4-slot")(type "KiCad")(uri "${KIPRJMOD}/lib/SO-DIMM-DDR4-slot.kicad_sym")(options "")(descr ""))
-  (lib (name "DDR3")(type "KiCad")(uri "${KIPRJMOD}/lib/DDR3.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS51200DRC")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS51200DRC.kicad_sym")(options "")(descr ""))
-  (lib (name "MP2145")(type "KiCad")(uri "${KIPRJMOD}/lib/MP2145.kicad_sym")(options "")(descr ""))
-)
