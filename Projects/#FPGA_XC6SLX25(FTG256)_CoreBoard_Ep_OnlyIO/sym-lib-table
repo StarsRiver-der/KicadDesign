@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "SO-DIMM-DDR4-slot")(type "KiCad")(uri "${KIPRJMOD}/lib/SO-DIMM-DDR4-slot.kicad_sym")(options "")(descr ""))
+)
