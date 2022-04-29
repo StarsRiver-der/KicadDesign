@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": false,
+    "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 1,
     "net_color_mode": 2,
@@ -36,8 +36,6 @@
       8,
       9,
       10,
-      11,
-      12,
       13,
       14,
       15,
@@ -63,13 +61,38 @@
       36
     ],
     "visible_layers": "000f0bf_8000001f",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "XC6SLX25(FTG256)_CoreBoard.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "XC6SLX25(FTG256)_CoreBoard.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      },
+      {
+        "name": "XC6SLX25(FTG256)_CoreBoard.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      }
+    ]
   }
 }
