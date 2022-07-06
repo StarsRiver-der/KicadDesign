@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name "cyusb3014-bzxi")(type "KiCad")(uri "${KIPRJMOD}/Lib/cyusb3014-bzxi.kicad_sym")(options "")(descr ""))
-  (lib (name "Micron")(type "KiCad")(uri "${KIPRJMOD}/Lib/Micron.kicad_sym")(options "")(descr ""))
-  (lib (name "NCP")(type "KiCad")(uri "${KIPRJMOD}/Lib/NCP.kicad_sym")(options "")(descr ""))
-  (lib (name "mp14xx")(type "KiCad")(uri "${KIPRJMOD}/Lib/mp14xx.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS")(type "KiCad")(uri "${KIPRJMOD}/Lib/TPS.kicad_sym")(options "")(descr ""))
-)
