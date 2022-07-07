@@ -1,4 +1,4 @@
-20099939002715030
+20099939068106019
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85393,12 +85393,12 @@ varistor SIOV
 2
 2
 lib
-ESP32_C3_13U
-
-
+ESP32-WROVER
+ESP32-S2-WROVER(-I) 2.4 GHz Wi-Fi https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
+ESP32-S2  ESP32  WIFI
 0
-18
-18
+43
+43
 lib
 MP2145
 
