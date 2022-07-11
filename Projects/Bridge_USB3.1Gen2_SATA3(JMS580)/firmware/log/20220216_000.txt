@@ -1,4 +1,0 @@
-No.	  Date	   Time	 VID/PID/ManuStr/ProdStr/SN	 vfVIDPID	 vfManuStr	 vfProdStr	 vfDiskName	 vfVol.	 vfHDDFWRev.	 Usb3.0Check	 F/W	 EEPROM	 FW Check	 ReLink	 Part.	 Format	 R/W	 Speed	 SW Copy	 FolderCompare	 Result
-000001	2022/02/16	16:50:49	152D / 0562 / JMicron / External / DD5641988388E 	----	 ----	 ----	 ----	 ----	 ----	Fail	----	----	----	----	----	----	----	0.0/0.0	----	----	Fail
-000002	2022/02/16	16:51:06	152D / 0562 / JMicron / External / DD56419883890 	----	 ----	 ----	 ----	 ----	 ----	Pass	Pass	Pass	----	----	----	----	Fail	0.0/0.0	----	----	Fail
-000003	2022/02/16	16:51:25	152D / 0562 / JMicron / External / DD56419883891 	----	 ----	 ----	 ----	 ----	 ----	Pass	Pass	Pass	----	----	----	----	----	0.0/0.0	----	----	Pass

@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "BQ51013BRHLR")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ51013BRHLR.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ24040DSQT")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ24040DSQT.kicad_sym")(options "")(descr ""))
+  (lib (name "CSD16406Q3")(type "KiCad")(uri "${KIPRJMOD}/lib/CSD16406Q3.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ297X")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ297X.kicad_sym")(options "")(descr ""))
+)

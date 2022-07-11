@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "TS")(type "KiCad")(uri "${KIPRJMOD}/lib/TS.kicad_sym")(options "")(descr ""))
+  (lib (name "BSC")(type "KiCad")(uri "${KIPRJMOD}/lib/BSC.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX.kicad_sym")(options "")(descr ""))
+  (lib (name "CSD16406Q3")(type "KiCad")(uri "${KIPRJMOD}/lib/CSD16406Q3.kicad_sym")(options "")(descr ""))
+  (lib (name "USB_Connector")(type "KiCad")(uri "${KIPRJMOD}/lib/USB_Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "PA")(type "KiCad")(uri "${KIPRJMOD}/lib/PA.kicad_sym")(options "")(descr ""))
+)

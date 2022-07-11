@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "TS")(type "KiCad")(uri "${KIPRJMOD}/lib/TS.kicad_sym")(options "")(descr ""))
+  (lib (name "BSC")(type "KiCad")(uri "${KIPRJMOD}/lib/BSC.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX")(type "KiCad")(uri "${KIPRJMOD}/lib/MAX.kicad_sym")(options "")(descr ""))
+  (lib (name "CSD16406Q3")(type "KiCad")(uri "${KIPRJMOD}/lib/CSD16406Q3.kicad_sym")(options "")(descr ""))
+  (lib (name "HUSB238")(type "KiCad")(uri "${KIPRJMOD}/lib/HUSB238.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4125-GF-A_REVA2")(type "KiCad")(uri "${KIPRJMOD}/lib/USB4125-GF-A_REVA2.kicad_sym")(options "")(descr ""))
+  (lib (name "74LVC1G66")(type "KiCad")(uri "${KIPRJMOD}/lib/74LVC1G66.kicad_sym")(options "")(descr ""))
+)

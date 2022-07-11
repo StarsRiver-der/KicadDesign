@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32.kicad_sym")(options "")(descr ""))
-  (lib (name "USB-C16PSMT01")(type "KiCad")(uri "${KIPRJMOD}/lib/USB-C16PSMT01.kicad_sym")(options "")(descr ""))
-  (lib (name "MP2145")(type "KiCad")(uri "${KIPRJMOD}/lib/MP2145.kicad_sym")(options "")(descr ""))
-  (lib (name "CP2102")(type "KiCad")(uri "${KIPRJMOD}/lib/CP2102.kicad_sym")(options "")(descr ""))
-)

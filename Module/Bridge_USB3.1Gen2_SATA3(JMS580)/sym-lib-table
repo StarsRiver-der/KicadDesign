@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "JMS580")(type "KiCad")(uri "${KIPRJMOD}/lib/JMS580.kicad_sym")(options "")(descr ""))
+  (lib (name "SATA")(type "KiCad")(uri "${KIPRJMOD}/lib/SATA.kicad_sym")(options "")(descr ""))
+  (lib (name "FP6381A")(type "KiCad")(uri "${KIPRJMOD}/lib/FP6381A.kicad_sym")(options "")(descr ""))
+)

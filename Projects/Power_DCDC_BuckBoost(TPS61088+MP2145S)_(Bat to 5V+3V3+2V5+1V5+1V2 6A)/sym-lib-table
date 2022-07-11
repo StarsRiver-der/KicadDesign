@@ -1,5 +1,0 @@
-(sym_lib_table
-  (lib (name "PCI")(type "KiCad")(uri "${KIPRJMOD}/lib/PCI.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS61088RHLR")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS61088RHLR.kicad_sym")(options "")(descr ""))
-  (lib (name "MP2145")(type "KiCad")(uri "${KIPRJMOD}/lib/MP2145.kicad_sym")(options "")(descr ""))
-)
