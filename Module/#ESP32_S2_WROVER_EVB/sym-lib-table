@@ -11,4 +11,5 @@
   (lib (name "BMI60")(type "KiCad")(uri "${KIPRJMOD}/lib/BMI60.kicad_sym")(options "")(descr ""))
   (lib (name "TMC6300")(type "KiCad")(uri "${KIPRJMOD}/lib/TMC6300.kicad_sym")(options "")(descr ""))
   (lib (name "LCD")(type "KiCad")(uri "${KIPRJMOD}/lib/LCD.kicad_sym")(options "")(descr ""))
+  (lib (name "SK6812")(type "KiCad")(uri "${KIPRJMOD}/lib/SK6812.kicad_sym")(options "")(descr ""))
 )

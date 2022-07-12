@@ -1,4 +1,4 @@
-20103252719969947
+20104918603262540
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85406,6 +85406,13 @@ MP2145
 0
 20
 12
+lib
+SK6812-4020
+
+
+0
+4
+4
 lib
 VEML7700
 
