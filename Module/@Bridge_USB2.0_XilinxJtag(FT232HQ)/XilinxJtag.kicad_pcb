@@ -294,10 +294,10 @@
       (net 1 "VSS") (pinfunction "SHIELD") (pintype "passive") (tstamp 9a3519d7-ebfa-46a5-a572-5252a6310af5))
     (pad "S1" thru_hole oval locked (at -4.32 -3.105 180) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask)
       (net 1 "VSS") (pinfunction "SHIELD") (pintype "passive") (tstamp f0ddf170-75b9-4c94-8fda-3268a8b6e44d))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_XKB_U262-16XN-4BVC11.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/lib/USB_C16.STEP"
+      (offset (xyz 0 2.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 

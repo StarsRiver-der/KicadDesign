@@ -36,6 +36,7 @@
       8,
       9,
       10,
+      12,
       13,
       14,
       15,
@@ -68,19 +69,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "XC6SLX25(FTG256)_Min_EVB_OnlyIO.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
-        }
-      }
-    ]
+    "files": []
   }
 }

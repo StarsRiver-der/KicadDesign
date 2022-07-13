@@ -1,4 +1,5 @@
-(footprint "CSD16406Q3" (version 20211014) (generator pcbnew) (layer "F.Cu")
+(footprint "CSD16406Q3" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
   (tedit 6187C26B)
   (descr "<b>8-SON</b> (Q3)<p>body 3.3 x 3.3 mm")
   (property "AVAILABILITY" "Good")
@@ -111,6 +112,11 @@
   (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TDSON-8-1.step"
     (offset (xyz 0 0 0))
     (scale (xyz 0.6 0.6 0.4001))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1.2 1.2 1.2))
     (rotate (xyz 0 0 0))
   )
 )
