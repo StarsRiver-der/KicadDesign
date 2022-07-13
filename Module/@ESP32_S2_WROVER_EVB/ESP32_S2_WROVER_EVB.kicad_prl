@@ -1,10 +1,10 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -37,6 +37,7 @@
       9,
       10,
       11,
+      12,
       13,
       14,
       15,
@@ -61,24 +62,36 @@
       35,
       36
     ],
-    "visible_layers": "000f0ff_80000001",
-    "zone_display_mode": 0
+    "visible_layers": "000f0ff_80000007",
+    "zone_display_mode": 1
   },
   "meta": {
-    "filename": "ESP32_C3_13U_EVB.kicad_prl",
+    "filename": "ESP32_S2_WROVER_EVB.kicad_prl",
     "version": 3
   },
   "project": {
     "files": [
       {
-        "name": "ESP32_C3_13U_EVB.kicad_sch",
+        "name": "ESP32_S2_WROVER_EVB.kicad_pcb",
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 472,
-          "pos_y": -16,
-          "size_x": 976,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      },
+      {
+        "name": "ESP32_S2_WROVER_EVB.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
           "size_y": 1056
         }
       }
