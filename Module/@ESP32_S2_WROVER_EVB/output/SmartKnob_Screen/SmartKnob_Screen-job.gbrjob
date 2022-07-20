@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-07-15T16:37:12+08:00"
+    "CreationDate": "2022-07-20T18:17:01+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -47,7 +47,7 @@
     },
     {
       "Path": "SmartKnob_Screen-B-GND_Cu.gbr",
-      "FileFunction": "Copper,L4,Bot",
+      "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
